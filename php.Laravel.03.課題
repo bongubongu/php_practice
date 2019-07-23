@@ -1,0 +1,40 @@
+<?php
+
+$name = "柿田";
+if ($name == "柿田") {
+echo "私は 柿田 です";
+} else {
+echo"柿田ではありません";
+}
+echo "\n";
+
+$total = 0;
+echo $total;
+
+echo "\n";
+
+for ($i = 0; $i <= 10000; $i++) {
+ $total += $i;
+}
+echo $total;
+
+echo "\n";
+
+$fruits = array("apple", "peach", "orange", "banana", "strawberry");
+foreach ($fruits as $kudamono) {
+ echo "果物は" . $kudamono;
+ echo "\n";
+} 
+
+echo "\n";
+
+$start = 1;
+$end = 100;
+for ($i = $start; $i <= $end; $i++) {
+ if ($i % 5 == 0) {
+ echo $i;
+ echo"\n";
+ }
+} 
+
+echo"\n";
