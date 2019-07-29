@@ -1,0 +1,42 @@
+<?php
+
+$contents = "<p>sample</p>";
+$contents = strip_tags($contents);
+echo $contents;
+
+echo"\n";
+
+$fruits = ['apple','orange','melon'];
+array_push($fruits,'banana','pineapple');
+print_r($fruits);
+
+echo"\n";
+
+$item1 = ['item1','item2','item3'];
+$item2 = ['item4','item5'];
+$item3 = ['item6','item7'];
+$item = array_merge($item1,$item2,$item3);
+print_r($item);
+
+$date = time();
+echo $date;
+echo"\n";
+
+$timestamp = mktime(0,0,0,1,1,2019);
+echo $timestamp;
+echo"\n";
+
+$date1 = date('Y/m/d');
+$date2 = date('Y-m-d H:i:s');
+$w = date('w');
+$week = ['日','月','火','水','木','金','土'];
+$date3 = date('Y/m/d') . $week[$w];
+echo $date1;
+echo"\n";
+echo $date2;
+echo"\n";
+echo $date3;
+echo"\n";
+
+
+
