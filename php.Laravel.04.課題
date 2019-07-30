@@ -1,9 +1,11 @@
 <?php
 
 function nibai($a) {
-  echo 2 * $a;
+  $result = 0;
+  echo $a *= 2;
+  return $result;
 }
-
+  
 nibai(3);
 echo "\n";
 nibai(5);
@@ -23,10 +25,10 @@ function a($arr) {
  foreach ($arr as $a) {
  $result *= $a;
  }
- echo $result;
+ return $result;
 }
 
-a(array(1,3,5,7,9));
+echo a(array(1,3,5,7,9));
 
 echo "\n";
 
@@ -37,8 +39,8 @@ function max_array($arr){
     $max_number = $a;
   }    
  } 
- echo $max_number;
+ return $max_number;
 }
-max_array([77,12,25,69,]);
+echo max_array([77,12,25,69,]);
  
 echo "\n";
