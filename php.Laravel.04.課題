@@ -5,7 +5,6 @@ function nibai($a) {
   echo $a *= 2;
   return $result;
 }
-  
 nibai(3);
 echo "\n";
 nibai(5);
